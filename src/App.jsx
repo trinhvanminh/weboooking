@@ -1,12 +1,13 @@
 import './App.css'
+import Main from './components/Main'
+import NavigationBar from './components/NavigationBar'
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <div>
+      <NavigationBar />
+      <Main />
+    </div>
   )
 }
 
